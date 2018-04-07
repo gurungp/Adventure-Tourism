@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adventure_tourism.adventuretousrism.Basket_View">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="2dp"
+       android:layout_marginBottom="100dp">
+       <ListView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/list_of_all_items"
+           android:layout_gravity="left|top" />
+   </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:gravity="left"
+        android:layout_marginBottom="15dp"
+        android:text="TOTAL: "
+        android:layout_gravity="left|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:gravity="right"
+        android:layout_marginBottom="15dp"
+        android:text="AMOUNT"
+        android:layout_gravity="center_horizontal|bottom" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkout"
+        android:text="CHECK OUT"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>

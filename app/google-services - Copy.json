@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_id": "adventuretourism-8b072",
+    "project_number": "7123661348",
+    "name": "AdventureTourism"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7123661348:android:27d689d63f1b7a06",
+        "client_id": "android:com.google.samples.quickstart.signin",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.google.samples.quickstart.signin",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7123661348-jjc1gj03ebge8vgiv4cu1anevgi19jmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7123661348:android:6520c99faa3320cc",
+        "client_id": "android:com.example.adventure_tourism.adventuretousrism",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.adventure_tourism.adventuretousrism",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7123661348-kcdk8sd7kda5hg6alnu6rnif90h57pnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adventure_tourism.adventuretousrism",
+            "certificate_hash": "B2741E06131F4A03A918B59B1977B540D5C6B0D7"
+          }
+        },
+        {
+          "client_id": "7123661348-jjc1gj03ebge8vgiv4cu1anevgi19jmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

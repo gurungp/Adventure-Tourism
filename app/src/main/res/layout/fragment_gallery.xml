@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gallery_fragment"
+    tools:context="com.example.adventure_tourism.adventuretousrism.Gallery"
+    android:paddingBottom="5dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+   <android.support.v7.widget.RecyclerView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/recyclerView"
+       android:padding="15dp"
+       android:layout_centerHorizontal="true"
+       >
+
+   </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

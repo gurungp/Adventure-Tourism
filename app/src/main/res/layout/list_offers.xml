@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Add To Basket"
+        android:textOn="Remove"
+        android:padding="3dp"
+        android:id="@+id/add_basket_offers"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="discount"
+        android:padding="3dp"
+        android:id="@+id/discount_offers"
+        android:layout_below="@+id/hotel_name_offers"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Name"
+        android:padding="3dp"
+        android:id="@+id/hotel_name_offers"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="price"
+        android:padding="3dp"
+        android:id="@+id/hotelPriceOffers"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/discount_offers"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

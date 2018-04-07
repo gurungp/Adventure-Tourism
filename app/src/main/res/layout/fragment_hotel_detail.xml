@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adventure_tourism.adventuretousrism.Hotel_detail">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/hotel_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hotelButton"
+        android:id="@+id/hotel_button"
+        android:layout_gravity="left|center_vertical" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galleryButton"
+        android:id="@+id/gallery_button"
+        android:layout_gravity="center" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/offerButton"
+        android:id="@+id/offer_button"
+        android:layout_gravity="right|center_vertical" />
+
+</FrameLayout>

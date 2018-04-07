@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adventure_tourism.adventuretousrism.LoginUser">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/userEmailSignUp"
+        android:layout_marginTop="91dp"
+        android:hint="Email Address"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/userPasswordSignup" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/userPasswordSignup"
+        android:layout_below="@+id/userEmailSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="Password"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/userPasswordSignupConfirm"
+        android:hint="Confirm Password"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:id="@+id/signUpButton"
+        android:textColor="#ffffff"
+        android:typeface="normal"
+        android:background="@drawable/password_button"
+        android:textStyle="bold"
+        android:layout_below="@+id/userPasswordSignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+
+</RelativeLayout>
